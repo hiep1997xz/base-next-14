@@ -4,6 +4,8 @@ import Link from 'next/link';
 import React from 'react';
 import { TFunction } from 'i18next';
 import { PrimitiveType, Schema, TypeConfig } from '@/@types/common.ts';
+import Cookies from 'js-cookie';
+import Router from 'next/router';
 
 export function getIsAuth(
   userAuthority: string[] = [],
@@ -101,3 +103,15 @@ export function generateMockDataFromSchema(
     )
   );
 }
+
+export const logout = (type?: any) => {
+  Object.keys(Cookies.get()).forEach((cookieName: any) => {
+    const neededAttributes = {};
+    Cookies.remove(cookieName, neededAttributes);
+  });
+  localStorage.clear();
+  sessionStorage.clear();
+  if (type?.code === 401) {
+    Router.push({ pathname: '/login', query: { message: type?.message } }, '/login');
+  } else Router.push('/login');
+};
