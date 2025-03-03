@@ -1,0 +1,95 @@
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
+    align-items: center;
+    padding: 8px 24px 8px 12px;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title > svg {
+    font-size: 20px;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content {
+    font-size: 14px;
+}
+
+.ant-menu-dark,
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline,
+.ant-menu-dark > .ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline,
+.ant-menu-light,
+.ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline,
+.ant-menu-light > .ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+    background: transparent;
+}
+
+.ant-menu .ant-menu-item .ant-menu-item-icon + span,
+.ant-menu .ant-menu-submenu-title .ant-menu-item-icon + span,
+.ant-menu .ant-menu-item .anticon + span,
+.ant-menu .ant-menu-submenu-title .anticon + span,
+.ant-menu .ant-menu-item-group-title,
+.ant-menu .ant-menu-title-content {
+    transition: none;
+    font-weight: 600;
+}
+
+.ant-menu .ant-menu-item .ant-menu-item-icon,
+.ant-menu .ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu .ant-menu-item .anticon,
+.ant-menu .ant-menu-submenu-title .anticon,
+.ant-menu-inline-collapsed > .ant-menu-item .ant-menu-item-icon,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .ant-menu-item-icon,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-inline-collapsed > .ant-menu-item .anticon,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .anticon,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+    font-size: 20px;
+}
+
+.ant-menu-inline-collapsed .ant-menu-item-group-title {
+    display: none;
+}
+
+.ant-menu-submenu-title:hover,
+.ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: var(--menu-hover) !important;
+}
+
+.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+    padding-left: 20px;
+}
+
+.ant-menu-item-selected {
+    background-color: var(--menu-active) !important;
+    color: var(--foreground) !important;
+}
+
+.ant-menu-submenu-selected > .ant-menu-submenu-title {
+    color: var(--foreground) !important;
+}
+
+/* Drawer */
+.dark .ant-drawer .ant-drawer-content {
+    @apply bg-gray-800;
+}
+
+.ant-drawer .ant-drawer-close {
+    color: var(--foreground);
+}
+
+/* form */
+.ant-form-item .ant-form-item-label > label {
+    font-weight: bold;
+}
+
+.ant-input-outlined {
+    background: transparent;
+    border: #4b5563 1px solid;
+}
+
+.ant-input-outlined:hover {
+    background: transparent;
+}
+
+
+
+

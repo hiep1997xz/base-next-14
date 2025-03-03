@@ -1,0 +1,33 @@
+{
+  "login": {
+    "email": "メール",
+    "password": "パスワード",
+    "confirmPass": "パスワード確認",
+    "SignIn": "ログイン",
+    "SignUp": "新規登録",
+    "ruleEmail": "メールアドレスを入力してください！",
+    "rulePass": "パスワードを入力してください！",
+    "ruleConfirmPass": "もう一度パスワードを入力してください！",
+    "loginWith": "または次でログイン",
+    "haveAccount": "すでにアカウントをお持ちですか？",
+    "noAccount": "アカウントをお持ちではありませんか？",
+    "login_here": "こちらでログイン",
+    "checkbox": "ログイン状態を保持する",
+    "forgot_pass": "パスワードをお忘れですか？"
+  },
+  "emailVerify": {
+    "verify": "認証",
+    "text1": "メールに認証コードを送信しました",
+    "text2": "認証のために番号を入力してください",
+    "noOtp": "OTPが届きませんか？",
+    "resend": "再送信"
+  },
+  "forgotPass": {
+    "forgot_pass": "パスワードを忘れました",
+    "text": "Mint***@gmail.comに送信された4桁のコードを入力してください"
+  },
+  "resetPass": {
+    "reset_pass": "パスワードをリセット",
+    "update": "更新"
+  }
+}

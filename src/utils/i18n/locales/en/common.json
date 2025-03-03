@@ -1,0 +1,33 @@
+{
+  "login" : {
+    "email": "Email",
+    "password":"Password",   
+    "confirmPass":"Confirm Password",   
+    "SignIn" : "Sign In",
+    "SignUp" : "Sign Up",
+    "ruleEmail" :"Please enter email!",
+    "rulePass" :"Please enter password!",
+    "ruleConfirmPass" :"Please enter your password again!",
+    "loginWith" : "Or login with",
+    "haveAccount": "Already have an account?",
+    "noAccount": "Don’t have an account?",
+    "login_here" :"Login here",
+    "checkbox" : "Keep me signed in",
+    "forgot_pass" : "Forgot your password?"
+  },
+  "emailVerify" : {
+    "verify" : "Verification",
+    "text1" : "We’ve sent you the verification code on your email",
+    "text2" : "Please type in the numbers for verification",
+    "noOtp" : "Dont receive the OTP?",
+    "resend" : "Resend"
+  },
+  "forgotPass" : {
+    "forgot_pass" : "forgot password",
+    "text" : "Enter the 4-digit code sent to email Mint***@gmail.com"
+  },
+  "resetPass" : {
+    "reset_pass" : "Reset your password",
+    "update" : "Update"
+  }
+}

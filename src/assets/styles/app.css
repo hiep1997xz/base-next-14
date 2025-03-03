@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+@import "./template/index.css";
+@import "./vendors/index.css";
+@import "./tailwind/index.css";
+@import "./antd_customs.css";
+
+@font-face {
+    font-family: "Yu Mincho";
+    src: url("/fonts/YuMincho.woff2") format("woff2"), url("/fonts/YuMincho.woff") format("woff");
+}
+
+.content {
+    @apply mx-auto max-w-[1000px];
+}
+
+.header_content {
+    @apply mx-auto max-w-[1160px]
+}
+
+.font-noto {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.font-yu-mincho {
+    font-family: 'Yu Mincho', serif;
+}

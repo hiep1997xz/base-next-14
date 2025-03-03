@@ -1,0 +1,33 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPass": "Xác nhận mật khẩu",
+    "SignIn": "Đăng nhập",
+    "SignUp": "Đăng ký",
+    "ruleEmail": "Vui lòng nhập email!",
+    "rulePass": "Vui lòng nhập mật khẩu!",
+    "ruleConfirmPass": "Vui lòng nhập lại mật khẩu!",
+    "loginWith": "Hoặc đăng nhập bằng",
+    "haveAccount": "Bạn đã có tài khoản?",
+    "noAccount": "Bạn chưa có tài khoản?",
+    "login_here": "Đăng nhập tại đây",
+    "checkbox": "Ghi nhớ đăng nhập",
+    "forgot_pass": "Quên mật khẩu?"
+  },
+  "emailVerify": {
+    "verify": "Xác thực",
+    "text1": "Chúng tôi đã gửi mã xác thực vào email của bạn",
+    "text2": "Vui lòng nhập mã số để xác thực",
+    "noOtp": "Không nhận được mã OTP?",
+    "resend": "Gửi lại"
+  },
+  "forgotPass": {
+    "forgot_pass": "Quên mật khẩu",
+    "text": "Nhập mã 4 chữ số đã gửi đến email Mint***@gmail.com"
+  },
+  "resetPass": {
+    "reset_pass": "Đặt lại mật khẩu",
+    "update": "Cập nhật"
+  }
+}

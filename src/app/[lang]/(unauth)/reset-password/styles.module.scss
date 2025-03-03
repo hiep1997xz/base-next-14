@@ -1,0 +1,36 @@
+.form {
+  padding: 0px 16px;
+  max-width: 527px;
+  margin: 0 auto;
+
+  :global {
+    .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      content: '';
+    }
+
+    .ant-input-outlined {
+      background: transparent;   
+    }
+
+  
+    .floating-label {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .custom-label {
+      position: absolute;
+      top: -12px;
+      left: 24px;
+      background: #f9f8f3;
+      padding: 0 6px;
+      font-size: 15px;
+      font-weight: 400; 
+      color: #949DA7;
+      transition: all 0.3s ease-in-out;
+      z-index: 11;
+    }
+
+  }
+}

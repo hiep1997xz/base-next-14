@@ -1,0 +1,33 @@
+{
+  "login": {
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPass": "비밀번호 확인",
+    "SignIn": "로그인",
+    "SignUp": "회원가입",
+    "ruleEmail": "이메일을 입력해주세요!",
+    "rulePass": "비밀번호를 입력해주세요!",
+    "ruleConfirmPass": "비밀번호를 다시 입력해주세요!",
+    "loginWith": "또는 다음으로 로그인",
+    "haveAccount": "이미 계정이 있으신가요?",
+    "noAccount": "계정이 없으신가요?",
+    "login_here": "여기에서 로그인",
+    "checkbox": "로그인 상태 유지",
+    "forgot_pass": "비밀번호를 잊으셨나요?"
+  },
+  "emailVerify": {
+    "verify": "인증",
+    "text1": "이메일로 인증 코드를 보냈습니다",
+    "text2": "인증을 위해 번호를 입력해 주세요",
+    "noOtp": "OTP를 받지 못하셨나요?",
+    "resend": "다시 보내기"
+  },
+  "forgotPass" : {
+      "forgot_pass" : "비밀번호를 잊으셨나요?",
+      "text" : "Mint***@gmail.com으로 전송된 4자리 코드를 입력하세요."
+  },
+  "resetPass" : {
+      "reset_pass" : "비밀번호 재설정",
+      "update" : "업데이트"
+  }
+}
